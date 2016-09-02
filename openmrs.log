@@ -1,0 +1,264 @@
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:25:55,218| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: visits.enabled value: true, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:25:55,973| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:25:55,976| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: visits.assignmentHandler value: org.openmrs.api.handler.ExistingVisitAssignmentHandler, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:25:56,194| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:25:58,617| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: legacyui.started value: true, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:25:58,623| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:25:58,631| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: legacyui.mandatory value: false, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:25:58,638| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:25:59,593| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: webservices.rest.started value: true, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:25:59,598| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:25:59,604| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: webservices.rest.mandatory value: false, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:25:59,608| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:26:01,312| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: htmlformentry.started value: true, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:26:01,318| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:26:01,328| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: htmlformentry.mandatory value: false, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:26:01,344| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:26:09,208| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: fhir.started value: true, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:26:09,213| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:26:09,219| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: fhir.mandatory value: false, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:26:09,224| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:26:10,330| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: owa.started value: true, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:26:10,334| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:26:10,340| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: owa.mandatory value: false, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:26:10,343| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:26:12,199| In method SchedulerService.saveToMemento. Arguments: 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:26:12,206| Exiting method saveToMemento
+INFO - ServiceContext.startRefreshingContext(816) |2016-09-02 14:26:12,275| Refreshing Context
+WARN - SimpleUrlHandlerMapping.registerHandlers(115) |2016-09-02 14:26:26,325| Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+WARN - SimpleUrlHandlerMapping.registerHandlers(115) |2016-09-02 14:26:32,468| Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+INFO - ServiceContext.doneRefreshingContext(827) |2016-09-02 14:26:32,478| Done refreshing Context
+ERROR - CommonsLoggingOutput.error(75) |2016-09-02 14:26:41,493| Line=278 The content of element type "dwr" must match "(init?,allow?,signatures?)".
+ERROR - CommonsLoggingOutput.error(75) |2016-09-02 14:26:41,499| Parameter mismatch parsing signatures section in dwr.xml on line: DWRHtmlFormEntryService.checkIfLoggedIn()
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2109) |2016-09-02 14:26:41,535| Unable to find a runtime properties file at C:\Program Files\Apache Software Foundation\Tomcat 7.0\openmrs-runtime.properties
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2109) |2016-09-02 14:26:41,894| Unable to find a runtime properties file at C:\Program Files\Apache Software Foundation\Tomcat 7.0\openmrs-runtime.properties
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:27:34,896|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\owa\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:27:35,212|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\owa
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:27:35,232|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\fhir\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:27:35,353|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\fhir
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:27:35,359|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\htmlformentry\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:27:35,571|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\htmlformentry
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:27:35,575|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\webservices.rest\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:27:35,705|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\webservices.rest
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:27:35,707|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\legacyui\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:27:35,864|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\legacyui
+INFO - HibernateContextDAO.showUsageStatistics(365) |2016-09-02 14:27:35,865| QUERY: [CRITERIA] select this_.property as property1_41_0_, this_.property_value as property2_41_0_, this_.description as descript3_41_0_, this_.datatype as datatype4_41_0_, this_.datatype_config as datatype5_41_0_, this_.preferred_handler as preferre6_41_0_, this_.handler_config as handler_7_41_0_, this_.uuid as uuid8_41_0_ from global_property this_ where lower(this_.property)=?
+INFO - HibernateContextDAO.showUsageStatistics(367) |2016-09-02 14:27:35,865| Cache Hit Count : 0
+INFO - HibernateContextDAO.showUsageStatistics(368) |2016-09-02 14:27:35,865| Cache Miss Count: 0
+INFO - HibernateContextDAO.showUsageStatistics(369) |2016-09-02 14:27:35,866| Cache Put Count : 0
+INFO - HibernateContextDAO.showUsageStatistics(370) |2016-09-02 14:27:35,866| Execution Count : 5
+INFO - HibernateContextDAO.showUsageStatistics(371) |2016-09-02 14:27:35,866| Average time    : 1
+INFO - HibernateContextDAO.showUsageStatistics(372) |2016-09-02 14:27:35,867| Row Count       : 5
+INFO - HibernateContextDAO.showUsageStatistics(365) |2016-09-02 14:27:35,867| QUERY: [CRITERIA] select this_.task_config_id as task_con1_86_0_, this_.uuid as uuid2_86_0_, this_.name as name3_86_0_, this_.description as descript4_86_0_, this_.schedulable_class as schedula5_86_0_, this_.repeat_interval as repeat_i6_86_0_, this_.start_time as start_ti7_86_0_, this_.start_time_pattern as start_ti8_86_0_, this_.last_execution_time as last_exe9_86_0_, this_.start_on_startup as start_o10_86_0_, this_.started as started11_86_0_, this_.created_by as created12_86_0_, this_.changed_by as changed13_86_0_, this_.date_created as date_cr14_86_0_, this_.date_changed as date_ch15_86_0_ from scheduler_task_config this_
+INFO - HibernateContextDAO.showUsageStatistics(367) |2016-09-02 14:27:35,867| Cache Hit Count : 0
+INFO - HibernateContextDAO.showUsageStatistics(368) |2016-09-02 14:27:35,867| Cache Miss Count: 0
+INFO - HibernateContextDAO.showUsageStatistics(369) |2016-09-02 14:27:35,868| Cache Put Count : 0
+INFO - HibernateContextDAO.showUsageStatistics(370) |2016-09-02 14:27:35,868| Execution Count : 2
+INFO - HibernateContextDAO.showUsageStatistics(371) |2016-09-02 14:27:35,868| Average time    : 224
+INFO - HibernateContextDAO.showUsageStatistics(372) |2016-09-02 14:27:35,868| Row Count       : 2
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,794|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\fhir\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,795|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\fhir
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,798|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\htmlformentry\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,798|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\htmlformentry
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,801|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\legacyui\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,801|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\legacyui
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,803|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\owa\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,804|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\owa
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,807|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\webservices.rest\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,808|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\webservices.rest
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:29:25,809|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:29:30,107| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: legacyui.started value: true, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:29:30,138| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:29:30,147| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: legacyui.mandatory value: false, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:29:30,154| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:29:31,017| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: htmlformentry.started value: true, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:29:31,023| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:29:31,030| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: htmlformentry.mandatory value: false, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:29:31,040| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:29:36,563| In method SchedulerService.saveToMemento. Arguments: 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:29:36,576| Exiting method saveToMemento
+INFO - ServiceContext.startRefreshingContext(816) |2016-09-02 14:29:36,630| Refreshing Context
+WARN - SimpleUrlHandlerMapping.registerHandlers(115) |2016-09-02 14:29:48,052| Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+INFO - ServiceContext.doneRefreshingContext(827) |2016-09-02 14:29:48,150| Done refreshing Context
+ERROR - CommonsLoggingOutput.error(75) |2016-09-02 14:29:48,525| Line=278 The content of element type "dwr" must match "(init?,allow?,signatures?)".
+ERROR - CommonsLoggingOutput.error(75) |2016-09-02 14:29:48,531| Parameter mismatch parsing signatures section in dwr.xml on line: DWRHtmlFormEntryService.checkIfLoggedIn()
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2109) |2016-09-02 14:29:48,568| Unable to find a runtime properties file at C:\Program Files\Apache Software Foundation\Tomcat 7.0\openmrs-runtime.properties
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2109) |2016-09-02 14:29:48,793| Unable to find a runtime properties file at C:\Program Files\Apache Software Foundation\Tomcat 7.0\openmrs-runtime.properties
+WARN - MutableResourceBundleMessageSource.findPropertiesFiles(323) |2016-09-02 14:32:46,867| No properties files found.
+WARN - MutableResourceBundleMessageSource.findLocales(102) |2016-09-02 14:32:46,868| no locales found.
+WARN - ConceptTag.doStartTag(62) |2016-09-02 14:33:41,378| ConceptTag is unable to find a concept with conceptId '5497'
+INFO - SerializationServiceImpl.getDefaultSerializer(71) |2016-09-02 14:33:44,476| No default serializer specified - using builtin SimpleXStreamSerializer.
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:33:52,492| In method VisitService.saveVisit. Arguments: Visit=Visit #1, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:33:52,495| Exiting method saveVisit
+WARN - ConceptTag.doStartTag(62) |2016-09-02 14:33:53,266| ConceptTag is unable to find a concept with conceptId '5497'
+WARN - ConceptTag.doStartTag(62) |2016-09-02 14:34:09,162| ConceptTag is unable to find a concept with conceptId '5497'
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:34:13,225| In method VisitService.saveVisit. Arguments: Visit=Visit #2, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:34:13,226| Exiting method saveVisit
+WARN - ConceptTag.doStartTag(62) |2016-09-02 14:34:14,469| ConceptTag is unable to find a concept with conceptId '5497'
+INFO - HibernateContextDAO.authenticate(203) |2016-09-02 14:35:52,054| Failed login attempt (login=Admin123) - Invalid username and/or password: Admin123
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:37:06,289| In method FormService.saveForm. Arguments: Form=, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:37:06,961| Exiting method saveForm
+WARN - Module.expandExtensionNames(574) |2016-09-02 14:44:55,256| calculation: Unable to find class definition for extension: org.openmrs.admin.list
+java.lang.NoClassDefFoundError: org/openmrs/module/web/extension/AdministrationSectionExt
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:637)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:556)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.openmrs.module.Module.expandExtensionNames(Module.java:566)
+	at org.openmrs.module.Module.getExtensions(Module.java:494)
+	at org.openmrs.module.ModuleFactory.startModuleInternal(ModuleFactory.java:698)
+	at org.openmrs.api.context.Daemon$1.run(Daemon.java:74)
+Caused by: java.lang.ClassNotFoundException: org.openmrs.module.web.extension.AdministrationSectionExt
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1891)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1734)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:563)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 16 more
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:44:55,874| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: calculation.started value: true, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:44:56,005| Exiting method saveGlobalProperty
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:44:56,015| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: calculation.mandatory value: false, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:44:56,021| Exiting method saveGlobalProperty
+WARN - ModuleFactory.startModuleInternal(822) |2016-09-02 14:44:57,305| Error while trying to start module: calculation
+org.openmrs.module.ModuleException: Unable to load/find moduleActivator: 'org.openmrs.calculation.CalculationActivator' Module: Calculation
+	at org.openmrs.module.Module.getModuleActivator(Module.java:174)
+	at org.openmrs.module.ModuleFactory.startModuleInternal(ModuleFactory.java:804)
+	at org.openmrs.api.context.Daemon$1.run(Daemon.java:74)
+Caused by: java.lang.NoClassDefFoundError: org/openmrs/module/Activator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:637)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:556)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.openmrs.module.Module.getModuleActivator(Module.java:155)
+	... 2 more
+Caused by: java.lang.ClassNotFoundException: org.openmrs.module.Activator
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1891)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1734)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:563)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 15 more
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:44:57,776| In method AlertService.saveAlert. Arguments: Alert=Alert: #null, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:44:57,986| Exiting method saveAlert
+WARN - ModuleFactory.stopModule(1127) |2016-09-02 14:44:58,070| Unable to call module's Activator.willStop() method
+org.openmrs.module.ModuleException: Unable to load/find moduleActivator: 'org.openmrs.calculation.CalculationActivator' Module: Calculation
+	at org.openmrs.module.Module.getModuleActivator(Module.java:174)
+	at org.openmrs.module.ModuleFactory.stopModule(ModuleFactory.java:1122)
+	at org.openmrs.module.ModuleFactory.startModuleInternal(ModuleFactory.java:833)
+	at org.openmrs.api.context.Daemon$1.run(Daemon.java:74)
+Caused by: java.lang.NoClassDefFoundError: org/openmrs/module/Activator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:637)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:556)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.openmrs.module.Module.getModuleActivator(Module.java:155)
+	... 3 more
+Caused by: java.lang.ClassNotFoundException: org.openmrs.module.Activator
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1891)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1734)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:563)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 16 more
+INFO - LoggingAdvice.invoke(115) |2016-09-02 14:44:58,083| In method AdministrationService.saveGlobalProperty. Arguments: GlobalProperty=property: calculation.started value: false, 
+INFO - LoggingAdvice.invoke(155) |2016-09-02 14:44:58,346| Exiting method saveGlobalProperty
+WARN - Module.expandExtensionNames(574) |2016-09-02 14:44:58,348| calculation: Unable to find class definition for extension: org.openmrs.admin.list
+java.lang.NoClassDefFoundError: org/openmrs/module/web/extension/AdministrationSectionExt
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:637)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:556)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.openmrs.module.Module.expandExtensionNames(Module.java:566)
+	at org.openmrs.module.Module.getExtensions(Module.java:494)
+	at org.openmrs.module.ModuleFactory.stopModule(ModuleFactory.java:1200)
+	at org.openmrs.module.ModuleFactory.startModuleInternal(ModuleFactory.java:833)
+	at org.openmrs.api.context.Daemon$1.run(Daemon.java:74)
+Caused by: java.lang.ClassNotFoundException: org.openmrs.module.web.extension.AdministrationSectionExt
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1891)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1734)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:563)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 17 more
+WARN - ModuleFactory.stopModule(1235) |2016-09-02 14:44:58,350| Unable to call module's Activator.shutdown() method
+org.openmrs.module.ModuleException: Unable to load/find moduleActivator: 'org.openmrs.calculation.CalculationActivator' Module: Calculation
+	at org.openmrs.module.Module.getModuleActivator(Module.java:174)
+	at org.openmrs.module.ModuleFactory.stopModule(ModuleFactory.java:1230)
+	at org.openmrs.module.ModuleFactory.startModuleInternal(ModuleFactory.java:833)
+	at org.openmrs.api.context.Daemon$1.run(Daemon.java:74)
+Caused by: java.lang.NoClassDefFoundError: org/openmrs/module/Activator
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:637)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:556)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.openmrs.module.Module.getModuleActivator(Module.java:155)
+	... 3 more
+Caused by: java.lang.ClassNotFoundException: org.openmrs.module.Activator
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1891)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1734)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:563)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 16 more
+WARN - Module.expandExtensionNames(574) |2016-09-02 14:44:58,352| calculation: Unable to find class definition for extension: org.openmrs.admin.list
+java.lang.NoClassDefFoundError: org/openmrs/module/web/extension/AdministrationSectionExt
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$100(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:637)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:556)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.openmrs.module.Module.expandExtensionNames(Module.java:566)
+	at org.openmrs.module.Module.getExtensions(Module.java:494)
+	at org.openmrs.module.ModuleFactory.stopModule(ModuleFactory.java:1248)
+	at org.openmrs.module.ModuleFactory.startModuleInternal(ModuleFactory.java:833)
+	at org.openmrs.api.context.Daemon$1.run(Daemon.java:74)
+Caused by: java.lang.ClassNotFoundException: org.openmrs.module.web.extension.AdministrationSectionExt
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1891)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1734)
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:563)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 17 more
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:44:58,355|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\calculation\lib
+WARN - OpenmrsUtil.deleteDirectory(942) |2016-09-02 14:44:58,438|    ...could not remove directory: C:\Windows\system32\config\systemprofile\Application Data\OpenMRS\.openmrs-lib-cache\calculation
